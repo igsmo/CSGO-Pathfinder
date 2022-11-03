@@ -1,6 +1,8 @@
 # Pathfinder for CS:GO
 
-The objective of the project is to find the path to a certain point on a map and walk to it. The points on the map shall be specified manually using tools provided in the package (see below for tutorials).
+The objective of the project is to find the path to a certain point on a map and walk to it (no ladders). The points on the map shall be specified manually using tools provided in the package (see below for tutorials).
+
+Basic mapping for map de_mirage is present. If you wish to use it, skip points 2-11 and in 1., only change the SENSITIVITY.
 
 ## How to use
 1. Open "helpers/parameters.py" and set desired WAYPOINTS_NAME and your mouse senstivity as SENSITIVITY.
