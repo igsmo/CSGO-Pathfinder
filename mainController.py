@@ -1,8 +1,8 @@
 
 
 import time
-import helpers.pathfindingManager as pfm
-import helpers.botMovementController as bmc
+from helpers import pathfindingManager as pfm
+from helpers import botMovementController as bmc
 
 class Controller():
     def __init__(self) -> None:

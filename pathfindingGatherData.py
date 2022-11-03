@@ -5,9 +5,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pynput import keyboard # , mouse
 
-from tools import imageProcessor
-from tools import gameinfoExtractor
-from tools import parameters
+from helpers import imageProcessor
+from helpers import gameinfoExtractor
+from helpers import parameters
 
 waypoint_data = None
 
